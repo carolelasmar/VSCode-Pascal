@@ -1,0 +1,24 @@
+{
+	"name": "Pascal",
+	"image": "whitomtit/vscode-pascal",
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {
+				"files.exclude": {
+					"GLIST": true,
+					"GPATH": true,
+					"GRTAGS": true,
+					"GTAGS": true
+				},
+				"pascal.codeNavigation": "file"			
+			},
+			"extensions": [
+				"alefragnani.pascal",
+                "alefragnani.pascal-formatter"
+			]
+		}
+	}
+}
