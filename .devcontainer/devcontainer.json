@@ -20,5 +20,7 @@
                 "alefragnani.pascal-formatter"
 			]
 		}
-	}
+	},
+	
+	"postCreateCommand": "chmod +x .devcontainer/fetch-git.sh && ./.devcontainer/fetch-git.sh"
 }
